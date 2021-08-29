@@ -151,7 +151,7 @@
 - PhysicsRaycaster コンポーネント
 - Physics2DRaycaster コンポーネント
 - StandaloneInputModule の拡張
-- 
+
 ### Chapter 11 プロファイリング
 
 - uGUI の プロファイリングツール
