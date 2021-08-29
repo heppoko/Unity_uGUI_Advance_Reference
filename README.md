@@ -1,5 +1,9 @@
 # Unity uGUI アドバンスド・リファレンス
 
+## ダウンロード方法
+
+[Unity_uGUI_Advanced_Reference.pdf](https://github.com/heppoko/Unity_uGUI_Advance_Reference/blob/main/Unity_uGUI_Advanced_Reference.pdf) のリンク先を保存する。
+
 ## 対象読者
 
 本書は Unity の uGUI の基本原理を深く理解したいと願う読者のために書かれている。もし、すぐに効果が出る Tips や便利な UI アセットの紹介を期待しているのであれば、残念ながら期待外れになるかもしれない。だが、こんな経験はないだろうか？
