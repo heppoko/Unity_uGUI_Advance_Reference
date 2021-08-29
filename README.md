@@ -2,7 +2,7 @@
 
 ## ダウンロード方法
 
-[Unity_uGUI_Advanced_Reference.pdf](https://github.com/heppoko/Unity_uGUI_Advance_Reference/blob/main/Unity_uGUI_Advanced_Reference.pdf) のリンク先を保存する。
+[Unity_uGUI_Advanced_Reference.pdf](https://github.com/heppoko/Unity_uGUI_Advance_Reference/blob/main/Unity_uGUI_Advanced_Reference.pdf) の Download ボタンを押す（GitHub のプレビューではうまく表示できない）
 
 ## 対象読者
 
