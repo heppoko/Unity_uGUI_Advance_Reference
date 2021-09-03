@@ -40,7 +40,11 @@
 
 ## ライセンス
 
-本書のサンプルコードは、Unity uGUI 由来のものもオリジナルのものも全て Unity uGUI のライセンスの下で頒布する。Unity uGUI のライセンス については Unity UI Package の LICENSE を参照のこと。大抵の場合は製品内で Unity uGUI のライセンス表記も行っているはずなので特別なことをする必要はないだろう。
+本書のサンプルコードは、Unity uGUI 由来のものもオリジナルのものも全て Unity uGUI のライセンスの下で頒布する。
+
+https://docs.unity3d.com/Packages/com.unity.ugui@1.0/license/LICENSE.html
+
+大抵の場合は製品内で Unity uGUI のライセンス表記も行っているはずなので特別なことをする必要はないだろう。
 
 ## 目次
 
