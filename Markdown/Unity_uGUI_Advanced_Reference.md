@@ -1431,9 +1431,9 @@ rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 200);
 public static event ReapplyDrivenProperties reapplyDrivenProperties;
 ```
 
-`RectTranform` のドリブンプロパティが再適用されるタイミングで呼ばれるコールバックである。実際には `GameObject` のアクティブを切り替えた際に呼ばれる。
+`RectTransform` のドリブンプロパティが再適用されるタイミングで呼ばれるコールバックである。実際には `GameObject` のアクティブを切り替えた際に呼ばれる。
 
-ドリブンプロパティというのは Auto Layout などによって手動で編集することができない状態になっているプロパティのことである。ドリブンプロパティの詳細ついては *Chapter 9 Auto Layout* の *RectTranform のドリブンプロパティ* で説明する。
+ドリブンプロパティというのは Auto Layout などによって手動で編集することができない状態になっているプロパティのことである。ドリブンプロパティの詳細ついては *Chapter 9 Auto Layout* の *RectTransform のドリブンプロパティ* で説明する。
 
 ### RectTransform の Raw Edit モード
 
@@ -5935,7 +5935,7 @@ public bool isMaskingGraphic { get; set; }
 
 同一 `GameObject` にアタッチされている `Mask` コンポーネントが `enabled` かどうかを取得/設定する。
 
-Unity 2020.2 で導入された。このメソッドが実装されたことによって、`GetCompolent<Mask>()` で `Mask` コンポーネントを取得して `enabled` をチェックする必要がなくなる。
+Unity 2020.2 で導入された。このメソッドが実装されたことによって、`GetComponent<Mask>()` で `Mask` コンポーネントを取得して `enabled` をチェックする必要がなくなる。
 
 もし、このプロパティの値を変更したいのであれば、必ず変更時に `MaskUtilities.NotifyStencilStateChanged(this)` を呼ぶこと。
 
@@ -6394,7 +6394,7 @@ public bool preserveAspect { get; set; }
 
 `sprite` のアスペクト比をそのまま使うかどうかを取得/設定する。`type` が `Simple` の場合にのみ有効である。
 
-デフォルト値は `false` であり、`RectTransform` のサイズに応じて画像が引き伸ばされる。このプロパティを `true` に設定すると、`RectTranform` の `width` と `height` の小さいほうのサイズをベースにして表示サイズが決定される。 
+デフォルト値は `false` であり、`RectTransform` のサイズに応じて画像が引き伸ばされる。このプロパティを `true` に設定すると、`RectTransform` の `width` と `height` の小さいほうのサイズをベースにして表示サイズが決定される。 
 
 #### flexibleHeight
 
@@ -15214,9 +15214,9 @@ Layout Group は Layout Controller の一種であり、子の Layout 要素の�
 
 Layout Group は自身のサイズを制御しない。そのかわりにレイアウト要素として機能して他の Layout Controller によって制御されたり、手動で制御される。
 
-どんなサイズが Layout Group に割り当てられていても、たいていの場合は子のレイアウト要素それぞれに対するスペースの適切な量を、それらが報告する Minimun、Preferred、Flexible サイズに基づいて割り当てる。Layout Group は任意にネストできる。
+どんなサイズが Layout Group に割り当てられていても、たいていの場合は子のレイアウト要素それぞれに対するスペースの適切な量を、それらが報告する Minimum、Preferred、Flexible サイズに基づいて割り当てる。Layout Group は任意にネストできる。
 
-## RectTranform のドリブンプロパティ
+## RectTransform のドリブンプロパティ
 
 Auto Layout システムにおける Layout Controller は自動的に特定の UI 要素のサイズと配置を制御するので、それらの位置とサイズは **Inspector** や **Scene View** から手動で編集されるべきではない。そのように変更された値は次回のレイアウト計算時に結局 Layout Controller によってリセットされてしまうだけである。
 
